@@ -7,7 +7,6 @@ import Button from '../ui/Button';
 export default function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
     const menuItems = [
-        { name: "Home", href: "/" },
         { name: "About", href: "/about" },
         { name: "Opportunity", href: "/opportunity" },
         { name: "Services", href: "/services" },
@@ -18,7 +17,7 @@ export default function Navbar() {
         <nav className="bg-brand-white sticky top-0 z-50 font-sans">
             <Container className='flex items-center justify-between h-20'>
                 <div className="text-2xl font-bold text-brand-secondary">
-                    <img src="./logo.svg?v=2" className="md:w-[193px]" alt="" />
+                    <a href="./"><img src="./logo.svg?v=2" className="md:w-[193px]" alt="" /></a>
                 </div>
 
                 <div className="hidden md:flex items-center gap-10 lg:gap-18">
