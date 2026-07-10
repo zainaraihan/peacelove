@@ -60,7 +60,7 @@ export default function Services() {
             <div className="border-b-1 border-brand-grey"></div>
             <Container>
                 <div className="flex flex-col gap-8 my-15 md:flex-row md:items-start md:gap-[10vw] md:my-30">
-                    <img className="w-40" src="./home/Card/bpmlogo.svg?v=2" alt="" />
+                    <img className="w-40" src="./home/card/bpmlogo.svg?v=2" alt="" />
                     <div className="flex flex-col gap-10">
                         <div className="flex flex-col gap-3 md:flex-row md:items-center">
                             <h2 className="text-h2 w-50 md:w-[40vw]"><span className='text-brand-grey'>The</span> Peak <span className='text-brand-grey'>of</span> Cellular Nutrition</h2>
@@ -133,7 +133,7 @@ export default function Services() {
             </div>
             <Container>
                 <div className="flex flex-col gap-8 my-15 lg:flex-row md:items-start md:gap-[10vw]">
-                    <img className="w-45" src="./home/Card/zhonghailogo.png?v=2" alt="" />
+                    <img className="w-45" src="./home/card/zhonghailogo.png?v=2" alt="" />
                     <div className="flex flex-col gap-10">
                         <div className="flex flex-col gap-3">
                             <h2 className="text-h2 w-60 md:w-150"><span className='text-brand-grey'>Elite</span> Stem Cell Medical <span className='text-brand-grey'>Tourism in</span> Hainan</h2>
