@@ -5,11 +5,10 @@ import Button from "@/components/ui/Button"
 import { useState, useMemo } from "react"
 import emailjs from "@emailjs/browser"
 
-// ─── EmailJS config ───────────────────────────────────────────────────────────
-// Replace these with your actual EmailJS credentials
-const EMAILJS_SERVICE_ID = "service_4jx5sv4"
-const EMAILJS_TEMPLATE_ID = "template_gy05vzp"
-const EMAILJS_PUBLIC_KEY = "FmyLkN_Zub1Gjo8EE"
+// ─── EmailJS config (dari .env.local) ────────────────────────────────────────
+const EMAILJS_SERVICE_ID = process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID ?? ""
+const EMAILJS_TEMPLATE_ID = process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID ?? ""
+const EMAILJS_PUBLIC_KEY = process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY ?? ""
 // ─────────────────────────────────────────────────────────────────────────────
 
 function validateEmail(email: string): boolean {
