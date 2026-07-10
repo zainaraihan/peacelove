@@ -34,7 +34,7 @@ export default function about() {
                 </div>
                 <div className="bg-brand-light border-b-1 border-brand-grey md:mx-[3vw]">
                     <div className="flex flex-col items-center justify-center bg-[url('/about/circle.png')] h-[522px] bg-cover bg-center md:h-[820px]">
-                        <img className="h-[80px]" src="./about/love.svg" alt="" />
+                        <img className="h-[80px]" src="./about/Love.svg" alt="" />
                         <div className="absolute flex flex-col gap-12 w-55 md:w-90 md:gap-20">
                             {/* Teks 1: Animasi normal */}
                             <p className="text-h4 font-semibold leading-[102%] animate-float-slow">
