@@ -95,7 +95,7 @@ export default function Contact() {
     return (
         <div>
             <div>
-                <img className="h-[137px] w-full object-cover md:h-[308px]" src="./contact/head.png" alt="" />
+                <img className="h-[137px] w-full object-cover md:h-[308px]" src="./contact/head.png?v=2" alt="" />
                 <div className="bg-brand-light">
                     <Container className="flex flex-col py-7 gap-4 md:flex-row md:gap-20 md:py-20">
                         <h1 className="text-h1"><span className='text-brand-grey'>Get In</span> Touch <br /> With Us</h1>
@@ -197,7 +197,7 @@ export default function Contact() {
             </Container>
 
             <div>
-                <img className="h-[304] w-full object-cover bg-top md:h-[527px]" src="./contact/global.png" alt="" />
+                <img className="h-[304] w-full object-cover bg-top md:h-[527px]" src="./contact/global.png?v=2" alt="" />
             </div>
             <Container className="flex flex-col gap-5 py-12 pb-50 md:flex-row md:pt-30">
                 <h2 className="text-h2 md:w-150 md:mr-20"><span className='text-brand-grey'>Our</span> Global Offices <br /> <span className='text-brand-grey'>&</span> Partners</h2>
@@ -206,16 +206,16 @@ export default function Contact() {
                     <div className="flex flex-col gap-5 p-3 bg-brand-light">
                         <div className="flex justify-between">
                             <h3 className="text-h4 text-[18px] font-semibold w-10">P&L <br /> Management <br /> Office</h3>
-                            <img className="w-[134px]" src="./contact/peacelove.svg" alt="" />
+                            <img className="w-[134px]" src="./contact/peacelove.svg?v=2" alt="" />
                         </div>
                         <div className="flex justify-between items-end">
                             <div className="w-[72vw] md:w-[35vw]">
-                                <img src="./contact/mark.svg" alt="" />
+                                <img src="./contact/mark.svg?v=2" alt="" />
                                 <p className="text-p text-brand-grey">VA-02-06, No.1, Jalan Setia Murni U13/51, Setia Alam, Seksyen U13, 40170 Shah Alam, Selangor Darul Ehsan.</p>
                             </div>
                             <Button className="h-fit">
                                 <a href="https://www.google.com/maps/@3.1152348,101.4533067,55m/data=!3m1!1e3?entry=ttu&g_ep=EgoyMDI2MDcwNy4wIKXMDSoASAFQAw%3D%3D">
-                                    <img className="py-1" src="./contact/arrow.svg" alt="" />
+                                    <img className="py-1" src="./contact/arrow.svg?v=2" alt="" />
                                 </a>
                             </Button>
                         </div>
@@ -224,16 +224,16 @@ export default function Contact() {
                     <div className="flex flex-col gap-5 p-3 bg-brand-light">
                         <div className="flex justify-between">
                             <h3 className="text-h4 text-[18px] font-semibold w-10">BPM <br /> Wellness</h3>
-                            <img className="w-[64px]" src="./contact/bpm.svg" alt="" />
+                            <img className="w-[64px]" src="./contact/bpm.svg?v=2" alt="" />
                         </div>
                         <div className="flex justify-between items-end">
                             <div className="w-[72vw] md:w-[20vw]">
-                                <img src="./contact/mark.svg" alt="" />
+                                <img src="./contact/mark.svg?v=2" alt="" />
                                 <p className="text-p text-brand-grey">34 Maple Avenue, New Jersey, USA, ZIP code 07058.</p>
                             </div>
                             <Button className="h-fit">
                                 <a href="https://www.google.com/maps/place/34+Maple+Ave,+Pine+Brook,+NJ+07058,+USA/@40.864077,-74.3319648,662m/data=!3m2!1e3!4b1!4m6!3m5!1s0x89c3073f70d04adf:0xd8a76dcc4be2c27b!8m2!3d40.864077!4d-74.3319648!16s%2Fg%2F11b8v51cf0?entry=ttu&g_ep=EgoyMDI2MDcwNy4wIKXMDSoASAFQAw%3D%3D">
-                                    <img className="py-1" src="./contact/arrow.svg" alt="" />
+                                    <img className="py-1" src="./contact/arrow.svg?v=2" alt="" />
                                 </a>
                             </Button>
                         </div>
@@ -242,16 +242,16 @@ export default function Contact() {
                     <div className="flex flex-col gap-5 p-3 bg-brand-light">
                         <div className="flex justify-between">
                             <h3 className="text-h4 text-[18px] font-semibold">38Fule <br /> Group</h3>
-                            <img className="w-[134px]" src="./contact/38fule.svg" alt="" />
+                            <img className="w-[134px]" src="./contact/38fule.svg?v=2" alt="" />
                         </div>
                         <div className="flex justify-between items-end">
                             <div className="w-[72vw] md:w-[26vw]">
-                                <img src="./contact/mark.svg" alt="" />
+                                <img src="./contact/mark.svg?v=2" alt="" />
                                 <p className="text-p text-brand-grey">38 Fule Building, No.1 Tangyan Road, High-Tech District, Shaanxi Province, China.</p>
                             </div>
                             <Button className="h-fit">
                                 <a href="https://www.38fule.com/">
-                                    <img className="py-1" src="./contact/arrow.svg" alt="" />
+                                    <img className="py-1" src="./contact/arrow.svg?v=2" alt="" />
                                 </a>
                             </Button>
                         </div>
@@ -260,16 +260,16 @@ export default function Contact() {
                     <div className="flex flex-col gap-5 p-3 bg-brand-light">
                         <div className="flex justify-between">
                             <h3 className="text-h4 text-[18px] font-semibold">Stem Cell <br /> Medical Center</h3>
-                            <img className="w-[134px] h-[40px]" src="./contact/zhonghai.png" alt="" />
+                            <img className="w-[134px] h-[40px]" src="./contact/zhonghai.png?v=2" alt="" />
                         </div>
                         <div className="flex justify-between items-end">
                             <div className="w-[72vw] md:w-[26vw]">
-                                <img src="./contact/mark.svg" alt="" />
+                                <img src="./contact/mark.svg?v=2" alt="" />
                                 <p className="text-p text-brand-grey">Boao Lecheng International Medical Tourism Pilot Zone, Hainan, China.</p>
                             </div>
                             <Button className="h-fit">
                                 <a href="https://zhonghaiyinglian.com/">
-                                    <img className="py-1" src="./contact/arrow.svg" alt="" />
+                                    <img className="py-1" src="./contact/arrow.svg?v=2" alt="" />
                                 </a>
                             </Button>
                         </div>

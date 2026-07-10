@@ -18,7 +18,7 @@ export default function Navbar() {
         <nav className="bg-brand-white sticky top-0 z-50 font-sans">
             <Container className='flex items-center justify-between h-20'>
                 <div className="text-2xl font-bold text-brand-secondary">
-                    <img src="./logo.svg" className="md:w-[193px]" alt="" />
+                    <img src="./logo.svg?v=2" className="md:w-[193px]" alt="" />
                 </div>
 
                 <div className="hidden md:flex items-center gap-10 lg:gap-18">
@@ -37,9 +37,9 @@ export default function Navbar() {
 
                 <button onClick={() => setIsOpen(!isOpen)} className='p-2 md:hidden text-brand-secondary focus: outline-none' aria-label="Toggle Menu">
                     {isOpen ? (
-                        <img src="./x.svg" alt="" />
+                        <img src="./x.svg?v=2" alt="" />
                     ) : (
-                        <img src="./burger.svg" alt="" />
+                        <img src="./burger.svg?v=2" alt="" />
                     )}
                 </button>
             </Container>
@@ -47,7 +47,7 @@ export default function Navbar() {
                 <div className="fixed inset-0 z-50 bg-brand-white md:hidden flex flex-col  animate-fadeIn">
                     <div className="flex items-center justify-end h-20">
                         <button onClick={() => setIsOpen(false)} className='text-brand-secondary focus:outline-none pr-6' aria-label="Close Menu">
-                            <img src="./x.svg" alt="" />
+                            <img src="./x.svg?v=2" alt="" />
                         </button>
                     </div>
                     <div className="flex flex-col items-center justify-center flex-grow gap-8">

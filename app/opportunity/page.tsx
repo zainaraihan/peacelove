@@ -73,13 +73,13 @@ export default function Opportunity() {
                 {/* Header */}
                 <div className='flex flex-col mt-11 pb-20 gap-8 border-b-1 border-brand-grey lg:flex-row lg:items-center lg:pb-25 lg:border-b-2'>
                     <h1 className='text-h1'><span className='text-brand-grey'>The</span> <br /> 100-Billion <br /> <span className='text-brand-grey'>Global Platform</span></h1>
-                    <img className='relative h-[250px] object-cover overflow-x-visible lg:h-full lg:overflow-x-hidden' src="./opportunity/head.png" alt="" />
+                    <img className='relative h-[250px] object-cover overflow-x-visible lg:h-full lg:overflow-x-hidden' src="./opportunity/head.png?v=2" alt="" />
                 </div>
 
                 {/* Map */}
                 <div className='mt-20 lg:mt-25'>
                     <div className='flex flex-col gap-7 mb-5 lg:flex-row lg:justify-between lg:items-end'>
-                        <img className='relative h-[300px] object-cover overflow-x-visible lg:w-220 lg:h-full' src="./opportunity/maps.svg" alt="" />
+                        <img className='relative h-[300px] object-cover overflow-x-visible lg:w-220 lg:h-full' src="./opportunity/maps.svg?v=2" alt="" />
                         <h2 className='text-h2'>A <span className='text-brand-grey'>Modern</span> <br /> Cross-Border <br /> <span className='text-brand-grey'>Retail</span> Opportunity</h2>
                     </div>
                     <div className='flex flex-col gap-6'>
@@ -91,7 +91,7 @@ export default function Opportunity() {
                 {/* Build Experts */}
                 <div className='flex flex-col mt-25 gap-8'>
                     <h2 className='text-h1 lg:text-[42px]'><span className='text-brand-grey'>We</span> Build <br /> Experts, <span className='text-brand-grey'>Not Just</span> <br /> Distributors</h2>
-                    <img className='relative h-[297px] object-cover overflow-x-visible lg:h-[347px]' src="./opportunity/expert.png" alt="" />
+                    <img className='relative h-[297px] object-cover overflow-x-visible lg:h-[347px]' src="./opportunity/expert.png?v=2" alt="" />
                     <div className='flex flex-col gap-3 lg:flex-row'>
                         <p className='text-p font-medium text-brand-grey'>Sustainability in business requires knowledge and professionalism. P&L International is committed to cultivating industry elites through our comprehensive Talent Development program.</p>
                         <p className='text-p font-medium text-brand-grey'>In exclusive partnership with the Malaysia Education Empowerment Organization (MEEO) and various prestigious universities globally, we offer structured education pathways tailored for our members.</p>
@@ -100,7 +100,7 @@ export default function Opportunity() {
             </Container>
             {/* Radar Love */}
             <div className='flex flex-col justify-center items-center'>
-                <img className='w-full object-cover object-center h-[516px] mt-25 overflow-x-visible lg:h-[684px]' src="./opportunity/radar.png" alt="" />
+                <img className='w-full object-cover object-center h-[516px] mt-25 overflow-x-visible lg:h-[684px]' src="./opportunity/radar.png?v=2" alt="" />
                 <div className='absolute flex flex-col items-center text-center gap-20 pt-50 lg:gap-25 lg:pt-55'>
                     <p className='text-h4 w-50 font-semibold md:w-70'>Zero-Risk, High-Reward <span className='text-brand-grey'>Global</span> System</p>
                     <p className='text-h4 w-50 font-semibold pb-5 md:w-70'><span className='text-brand-grey'>Lucrative</span> Trinary Compensation <span className='text-brand-grey'>Plan</span></p>
@@ -118,14 +118,14 @@ export default function Opportunity() {
                             className='cursor-pointer active:scale-95 transition-transform'
                             aria-label="Previous slide"
                         >
-                            <img src="./opportunity/arrowleft.svg" alt="Previous" />
+                            <img src="./opportunity/arrowleft.svg?v=2" alt="Previous" />
                         </button>
                         <button
                             onClick={handleNext}
                             className='cursor-pointer active:scale-95 transition-transform'
                             aria-label="Next slide"
                         >
-                            <img src="./opportunity/arrowright.svg" alt="Next" />
+                            <img src="./opportunity/arrowright.svg?v=2" alt="Next" />
                         </button>
                     </div>
 
@@ -162,7 +162,7 @@ export default function Opportunity() {
                     <h2 className='text-h2 w-70 pb-8 lg:w-120 lg:pb-15'><span className='text-brand-grey'>Choosing</span> the Right Company <span className='text-brand-grey'>is the</span> Real Challenge</h2>
                 </Container>
                 {/* <img className='w-full object-cover h-[591px] overflow-x-visible' src="./opportunity/righcom.png" alt="" /> */}
-                <div className='flex flex-col justify-end pb-5 w-full bg-cover bg-center bg-right lg:bg-center h-[591px] relative bg-[url("/opportunity/righcom.png")] lg:h-[812px] lg:pb-[3vw]'>
+                <div className='flex flex-col justify-end pb-5 w-full bg-cover bg-center bg-right lg:bg-center h-[591px] relative bg-[url("/opportunity/righcom.png?v=2")] lg:h-[812px] lg:pb-[3vw]'>
                     <Container>
                         <div className='flex flex-col gap-5'>
                             <p className='font-medium p-5 bg-brand-light text-brand-grey lg:w-155'>In a market flooded with short-lived trends, P&L International stands strong. Backed by 34 years of glorious history, legally licensed operations, and world-class scientific foundations, we offer something truly rare: Security, Longevity, and Integrity.</p>

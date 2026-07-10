@@ -33,13 +33,13 @@ export default function Services() {
     const stemCards = [
         {
             label: "1st Time Visitor",
-            img: "./services/timevisitor.png",
+            img: "./services/timevisitor.png?v=2",
             price: "US$ 7,500",
             desc: "Includes 5500 CV for Business Members",
         },
         {
             label: "2nd Time & Above",
-            img: "./services/card/2nd.png",
+            img: "./services/card/2nd.png?v=2",
             price: "US$ 5,000",
             desc: "Includes 3500 CV for Business Members",
         },
@@ -50,7 +50,7 @@ export default function Services() {
 
     return (
         <div>
-            <img className="w-full h-[376px] object-cover lg:h-[300px]" src="./services/head.png" alt="" />
+            <img className="w-full h-[376px] object-cover lg:h-[300px]" src="./services/head.png?v=2" alt="" />
             <Container>
                 <div className="flex flex-col my-15 gap-6 lg:flex-row lg:items-center">
                     <h1 className="text-h1 w-60 lg:w-240"><span className='text-brand-grey'>Exclusive</span> Products <br /> <span className='text-brand-grey'>&</span> Services</h1>
@@ -60,7 +60,7 @@ export default function Services() {
             <div className="border-b-1 border-brand-grey"></div>
             <Container>
                 <div className="flex flex-col gap-8 my-15 md:flex-row md:items-start md:gap-[10vw] md:my-30">
-                    <img className="w-40" src="./home/Card/bpmlogo.svg" alt="" />
+                    <img className="w-40" src="./home/Card/bpmlogo.svg?v=2" alt="" />
                     <div className="flex flex-col gap-10">
                         <div className="flex flex-col gap-3 md:flex-row md:items-center">
                             <h2 className="text-h2 w-50 md:w-[40vw]"><span className='text-brand-grey'>The</span> Peak <span className='text-brand-grey'>of</span> Cellular Nutrition</h2>
@@ -96,10 +96,10 @@ export default function Services() {
                         <div className="flex justify-between">
                             <div className="flex gap-4 lg:hidden">
                                 <button onClick={prevBpm} aria-label="Previous">
-                                    <img className="w-10" src="./opportunity/arrowleft.svg" alt="Arrow Left" />
+                                    <img className="w-10" src="./opportunity/arrowleft.svg?v=2" alt="Arrow Left" />
                                 </button>
                                 <button onClick={nextBpm} aria-label="Next">
-                                    <img className="w-10" src="./opportunity/arrowright.svg" alt="Arrow Right" />
+                                    <img className="w-10" src="./opportunity/arrowright.svg?v=2" alt="Arrow Right" />
                                 </button>
                             </div>
                             <Button>
@@ -112,7 +112,7 @@ export default function Services() {
             <div className="py-15 bg-[linear-gradient(180deg,#F1F1F1_0%,#F1F1F1_62.07%,#FFF_94.96%)]">
                 <div className="px-[18px] md:px-[3vw] ">
                     <div className="flex flex-col gap-8 md:flex-row md:items-start md:gap-[10vw]">
-                        <img className="w-40" src="./home/card/38fulelogo.svg" alt="" />
+                        <img className="w-40" src="./home/card/38fulelogo.svg?v=2" alt="" />
                         <div className="flex flex-col gap-10 lg:w-full">
                             <div className="flex flex-col gap-3 md:gap-10">
                                 <h2 className="text-h2 w-80 md:w-100"><span className='text-brand-grey'>Empowering</span> <br /> Women’s Wellness</h2>
@@ -121,7 +121,7 @@ export default function Services() {
                                     <p className="text-p text-brand-grey font-medium w-85 md:w-full">We bring you deeply trusted, premium healthcare solutions specifically designed to nurture and protect women's well-being at every stage of life.</p>
                                 </div>
                             </div>
-                            <img className="mt-10 w-full object-cover h-[304px] md:h-[450px] lg:mt-0" src="./services/empowering.png" alt="" />
+                            <img className="mt-10 w-full object-cover h-[304px] md:h-[450px] lg:mt-0" src="./services/empowering.png?v=2" alt="" />
                             <div>
                                 <Button className="flex flex-col w-full text-p md:w-auto">
                                     <a href="https://www.38fule.com/">Learn More</a>
@@ -133,11 +133,11 @@ export default function Services() {
             </div>
             <Container>
                 <div className="flex flex-col gap-8 my-15 lg:flex-row md:items-start md:gap-[10vw]">
-                    <img className="w-45" src="./home/Card/zhonghailogo.png" alt="" />
+                    <img className="w-45" src="./home/Card/zhonghailogo.png?v=2" alt="" />
                     <div className="flex flex-col gap-10">
                         <div className="flex flex-col gap-3">
                             <h2 className="text-h2 w-60 md:w-150"><span className='text-brand-grey'>Elite</span> Stem Cell Medical <span className='text-brand-grey'>Tourism in</span> Hainan</h2>
-                            <img className="mt-4 w-full object-cover h-[304px] overflow-x-visible lg:h-full md:mt-10" src="./services/elitestem.png" alt="" />
+                            <img className="mt-4 w-full object-cover h-[304px] overflow-x-visible lg:h-full md:mt-10" src="./services/elitestem.png?v=2" alt="" />
                             <p className="text-p text-brand-grey font-medium mt-6 md:py-5">Travel for health, travel for life. Through our partnership with Zhonghai Yinglian—a scientist-led, world-class regenerative medicine enterprise—we offer an exclusive medical tourism experience in the Boao Lecheng Pilot Zone, Hainan. Experience state-of-the-art immune and stem cell therapies designed to transform your vitality.</p>
                         </div>
                         {/* Mobile: slider — Desktop: row */}
@@ -168,10 +168,10 @@ export default function Services() {
                             <div className="flex justify-between">
                                 <div className="flex gap-4 md:hidden">
                                     <button onClick={prevStem} aria-label="Previous">
-                                        <img className="w-10" src="./opportunity/arrowleft.svg" alt="Arrow Left" />
+                                        <img className="w-10" src="./opportunity/arrowleft.svg?v=2" alt="Arrow Left" />
                                     </button>
                                     <button onClick={nextStem} aria-label="Next">
-                                        <img className="w-10" src="./opportunity/arrowright.svg" alt="Arrow Right" />
+                                        <img className="w-10" src="./opportunity/arrowright.svg?v=2" alt="Arrow Right" />
                                     </button>
                                 </div>
                                 <Button className="">
