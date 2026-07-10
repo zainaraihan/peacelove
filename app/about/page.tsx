@@ -26,7 +26,7 @@ export default function about() {
                 </Container>
                 <div className="flex flex-col gap-8 bg-brand-light md:flex-row md:gap-0 lg:gap-20 md:items-center md:mx-[3vw]">
                     <div className="">
-                        <img className="md:h-[452px] object-cover lg:w-full" src="./about/philosophy.png" alt="" />
+                        <img className="md:h-[452px] object-cover lg:w-full" src="./about/Philosophy.png" alt="" />
                     </div>
                     <Container>
                         <p className="tex-p w-85 text-brand-grey lg:w-120 ">Adhering to our core principles of peace and love, we are committed to providing every customer with only the best products and services. We do not just build a business; we build a lifelong career for our partners.</p>

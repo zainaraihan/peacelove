@@ -79,7 +79,7 @@ export default function Opportunity() {
                 {/* Map */}
                 <div className='mt-20 lg:mt-25'>
                     <div className='flex flex-col gap-7 mb-5 lg:flex-row lg:justify-between lg:items-end'>
-                        <img className='relative h-[300px] object-cover overflow-x-visible lg:w-220 lg:h-full' src="./opportunity/maps.svg" alt="" />
+                        <img className='relative h-[300px] object-cover overflow-x-visible lg:w-220 lg:h-full' src="./opportunity/Maps.svg" alt="" />
                         <h2 className='text-h2'>A <span className='text-brand-grey'>Modern</span> <br /> Cross-Border <br /> <span className='text-brand-grey'>Retail</span> Opportunity</h2>
                     </div>
                     <div className='flex flex-col gap-6'>
