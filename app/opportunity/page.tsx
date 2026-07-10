@@ -125,7 +125,7 @@ export default function Opportunity() {
                             className='cursor-pointer active:scale-95 transition-transform'
                             aria-label="Next slide"
                         >
-                            <img src="./opportunity/Arrow Right.svg" alt="Next" />
+                            <img src="./opportunity/arrowright.svg" alt="Next" />
                         </button>
                     </div>
 
