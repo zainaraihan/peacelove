@@ -79,7 +79,7 @@ export default function Opportunity() {
                 {/* Map */}
                 <div className='mt-20 lg:mt-25'>
                     <div className='flex flex-col gap-7 mb-5 lg:flex-row lg:justify-between lg:items-end'>
-                        <img className='relative h-[300px] object-cover overflow-x-visible lg:w-220 lg:h-full' src="./opportunity/Maps.svg" alt="" />
+                        <img className='relative h-[300px] object-cover overflow-x-visible lg:w-220 lg:h-full' src="./opportunity/maps.svg" alt="" />
                         <h2 className='text-h2'>A <span className='text-brand-grey'>Modern</span> <br /> Cross-Border <br /> <span className='text-brand-grey'>Retail</span> Opportunity</h2>
                     </div>
                     <div className='flex flex-col gap-6'>
@@ -100,12 +100,12 @@ export default function Opportunity() {
             </Container>
             {/* Radar Love */}
             <div className='flex flex-col justify-center items-center'>
-                <img className='w-full object-cover object-center h-[516px] mt-25 overflow-x-visible lg:h-[684px]' src="./opportunity/Radar.png" alt="" />
+                <img className='w-full object-cover object-center h-[516px] mt-25 overflow-x-visible lg:h-[684px]' src="./opportunity/radar.png" alt="" />
                 <div className='absolute flex flex-col items-center text-center gap-20 pt-50 lg:gap-25 lg:pt-55'>
                     <p className='text-h4 w-50 font-semibold md:w-70'>Zero-Risk, High-Reward <span className='text-brand-grey'>Global</span> System</p>
                     <p className='text-h4 w-50 font-semibold pb-5 md:w-70'><span className='text-brand-grey'>Lucrative</span> Trinary Compensation <span className='text-brand-grey'>Plan</span></p>
                     <p className='text-h4 w-70 font-semibold md:w-120'><span className='text-brand-grey'>Seamless</span> global payouts <span className='text-brand-grey'>via</span> P&L payment gateway <span className='text-brand-grey'>support by</span> Visa & HSBC globally</p>
-                    <img className='w-20' src="./opportunity/Love.svg" alt="" />
+                    <img className='w-20' src="./opportunity/love.svg" alt="" />
                 </div>
             </div>
             {/* List */}
@@ -118,7 +118,7 @@ export default function Opportunity() {
                             className='cursor-pointer active:scale-95 transition-transform'
                             aria-label="Previous slide"
                         >
-                            <img src="./opportunity/Arrow Left.svg" alt="Previous" />
+                            <img src="./opportunity/arrowleft.svg" alt="Previous" />
                         </button>
                         <button
                             onClick={handleNext}

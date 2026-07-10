@@ -26,7 +26,7 @@ export default function about() {
                 </Container>
                 <div className="flex flex-col gap-8 bg-brand-light md:flex-row md:gap-0 lg:gap-20 md:items-center md:mx-[3vw]">
                     <div className="">
-                        <img className="md:h-[452px] object-cover lg:w-full" src="./about/Philosophy.png" alt="" />
+                        <img className="md:h-[452px] object-cover lg:w-full" src="./about/philosophy.png" alt="" />
                     </div>
                     <Container>
                         <p className="tex-p w-85 text-brand-grey lg:w-120 ">Adhering to our core principles of peace and love, we are committed to providing every customer with only the best products and services. We do not just build a business; we build a lifelong career for our partners.</p>
@@ -34,7 +34,7 @@ export default function about() {
                 </div>
                 <div className="bg-brand-light border-b-1 border-brand-grey md:mx-[3vw]">
                     <div className="flex flex-col items-center justify-center bg-[url('/about/circle.png')] h-[522px] bg-cover bg-center md:h-[820px]">
-                        <img className="h-[80px]" src="./about/Love.svg" alt="" />
+                        <img className="h-[80px]" src="./about/love.svg" alt="" />
                         <div className="absolute flex flex-col gap-12 w-55 md:w-90 md:gap-20">
                             {/* Teks 1: Animasi normal */}
                             <p className="text-h4 font-semibold leading-[102%] animate-float-slow">

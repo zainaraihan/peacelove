@@ -60,7 +60,7 @@ export default function Services() {
             <div className="border-b-1 border-brand-grey"></div>
             <Container>
                 <div className="flex flex-col gap-8 my-15 md:flex-row md:items-start md:gap-[10vw] md:my-30">
-                    <img className="w-40" src="./home/Card/Bpm Logo.svg" alt="" />
+                    <img className="w-40" src="./home/Card/bpmlogo.svg" alt="" />
                     <div className="flex flex-col gap-10">
                         <div className="flex flex-col gap-3 md:flex-row md:items-center">
                             <h2 className="text-h2 w-50 md:w-[40vw]"><span className='text-brand-grey'>The</span> Peak <span className='text-brand-grey'>of</span> Cellular Nutrition</h2>
@@ -96,10 +96,10 @@ export default function Services() {
                         <div className="flex justify-between">
                             <div className="flex gap-4 lg:hidden">
                                 <button onClick={prevBpm} aria-label="Previous">
-                                    <img className="w-10" src="./opportunity/Arrow Left.svg" alt="Arrow Left" />
+                                    <img className="w-10" src="./opportunity/arrowleft.svg" alt="Arrow Left" />
                                 </button>
                                 <button onClick={nextBpm} aria-label="Next">
-                                    <img className="w-10" src="./opportunity/Arrow Right.svg" alt="Arrow Right" />
+                                    <img className="w-10" src="./opportunity/arrowright.svg" alt="Arrow Right" />
                                 </button>
                             </div>
                             <Button>
@@ -112,7 +112,7 @@ export default function Services() {
             <div className="py-15 bg-[linear-gradient(180deg,#F1F1F1_0%,#F1F1F1_62.07%,#FFF_94.96%)]">
                 <div className="px-[18px] md:px-[3vw] ">
                     <div className="flex flex-col gap-8 md:flex-row md:items-start md:gap-[10vw]">
-                        <img className="w-40" src="./home/card/38Fule Logo.svg" alt="" />
+                        <img className="w-40" src="./home/card/38fulelogo.svg" alt="" />
                         <div className="flex flex-col gap-10 lg:w-full">
                             <div className="flex flex-col gap-3 md:gap-10">
                                 <h2 className="text-h2 w-80 md:w-100"><span className='text-brand-grey'>Empowering</span> <br /> Women’s Wellness</h2>
@@ -133,7 +133,7 @@ export default function Services() {
             </div>
             <Container>
                 <div className="flex flex-col gap-8 my-15 lg:flex-row md:items-start md:gap-[10vw]">
-                    <img className="w-45" src="./home/Card/Zhong Hai Logo.png" alt="" />
+                    <img className="w-45" src="./home/Card/zhonghailogo.png" alt="" />
                     <div className="flex flex-col gap-10">
                         <div className="flex flex-col gap-3">
                             <h2 className="text-h2 w-60 md:w-150"><span className='text-brand-grey'>Elite</span> Stem Cell Medical <span className='text-brand-grey'>Tourism in</span> Hainan</h2>
@@ -168,10 +168,10 @@ export default function Services() {
                             <div className="flex justify-between">
                                 <div className="flex gap-4 md:hidden">
                                     <button onClick={prevStem} aria-label="Previous">
-                                        <img className="w-10" src="./opportunity/Arrow Left.svg" alt="Arrow Left" />
+                                        <img className="w-10" src="./opportunity/arrowleft.svg" alt="Arrow Left" />
                                     </button>
                                     <button onClick={nextStem} aria-label="Next">
-                                        <img className="w-10" src="./opportunity/Arrow Right.svg" alt="Arrow Right" />
+                                        <img className="w-10" src="./opportunity/arrowright.svg" alt="Arrow Right" />
                                     </button>
                                 </div>
                                 <Button className="">

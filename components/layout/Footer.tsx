@@ -31,7 +31,7 @@ export default function Footer() {
                     <div className="flex flex-col gap-[43px] md:gap-[44px]">
                         <div className="border-b-[1.2px] border-b-white flex justify-between pb-[24px] md:pb-[44px]">
                             <p className="text-brand-white text-h3 md:text-h1 w-[42.71] leading-[24.48px] self-center md:text-[70px] md:leading-[102%]">Bloom Globaly.</p>
-                            <img src="./Peace&Love_MainLogo_Gold.svg" alt="Footer-Logo" />
+                            <img src="./peacelove_mainlogo_gold.svg" alt="Footer-Logo" />
                         </div>
 
                         <div className="flex flex-col gap-[18px] md:flex-row md:pb-[153px]">

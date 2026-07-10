@@ -18,7 +18,7 @@ export default function Navbar() {
         <nav className="bg-brand-white sticky top-0 z-50 font-sans">
             <Container className='flex items-center justify-between h-20'>
                 <div className="text-2xl font-bold text-brand-secondary">
-                    <img src="./Logo.svg" className="md:w-[193px]" alt="" />
+                    <img src="./logo.svg" className="md:w-[193px]" alt="" />
                 </div>
 
                 <div className="hidden md:flex items-center gap-10 lg:gap-18">

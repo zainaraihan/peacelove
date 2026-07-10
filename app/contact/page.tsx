@@ -206,11 +206,11 @@ export default function Contact() {
                     <div className="flex flex-col gap-5 p-3 bg-brand-light">
                         <div className="flex justify-between">
                             <h3 className="text-h4 text-[18px] font-semibold w-10">P&L <br /> Management <br /> Office</h3>
-                            <img className="w-[134px]" src="./contact/PeaceLove.svg" alt="" />
+                            <img className="w-[134px]" src="./contact/peacelove.svg" alt="" />
                         </div>
                         <div className="flex justify-between items-end">
                             <div className="w-[72vw] md:w-[35vw]">
-                                <img src="./contact/Mark.svg" alt="" />
+                                <img src="./contact/mark.svg" alt="" />
                                 <p className="text-p text-brand-grey">VA-02-06, No.1, Jalan Setia Murni U13/51, Setia Alam, Seksyen U13, 40170 Shah Alam, Selangor Darul Ehsan.</p>
                             </div>
                             <Button className="h-fit">
@@ -224,11 +224,11 @@ export default function Contact() {
                     <div className="flex flex-col gap-5 p-3 bg-brand-light">
                         <div className="flex justify-between">
                             <h3 className="text-h4 text-[18px] font-semibold w-10">BPM <br /> Wellness</h3>
-                            <img className="w-[64px]" src="./contact/BPM.svg" alt="" />
+                            <img className="w-[64px]" src="./contact/bpm.svg" alt="" />
                         </div>
                         <div className="flex justify-between items-end">
                             <div className="w-[72vw] md:w-[20vw]">
-                                <img src="./contact/Mark.svg" alt="" />
+                                <img src="./contact/mark.svg" alt="" />
                                 <p className="text-p text-brand-grey">34 Maple Avenue, New Jersey, USA, ZIP code 07058.</p>
                             </div>
                             <Button className="h-fit">
@@ -242,11 +242,11 @@ export default function Contact() {
                     <div className="flex flex-col gap-5 p-3 bg-brand-light">
                         <div className="flex justify-between">
                             <h3 className="text-h4 text-[18px] font-semibold">38Fule <br /> Group</h3>
-                            <img className="w-[134px]" src="./contact/38Fule.svg" alt="" />
+                            <img className="w-[134px]" src="./contact/38fule.svg" alt="" />
                         </div>
                         <div className="flex justify-between items-end">
                             <div className="w-[72vw] md:w-[26vw]">
-                                <img src="./contact/Mark.svg" alt="" />
+                                <img src="./contact/mark.svg" alt="" />
                                 <p className="text-p text-brand-grey">38 Fule Building, No.1 Tangyan Road, High-Tech District, Shaanxi Province, China.</p>
                             </div>
                             <Button className="h-fit">
@@ -260,11 +260,11 @@ export default function Contact() {
                     <div className="flex flex-col gap-5 p-3 bg-brand-light">
                         <div className="flex justify-between">
                             <h3 className="text-h4 text-[18px] font-semibold">Stem Cell <br /> Medical Center</h3>
-                            <img className="w-[134px] h-[40px]" src="./contact/Zhong Hai.png" alt="" />
+                            <img className="w-[134px] h-[40px]" src="./contact/zhonghai.png" alt="" />
                         </div>
                         <div className="flex justify-between items-end">
                             <div className="w-[72vw] md:w-[26vw]">
-                                <img src="./contact/Mark.svg" alt="" />
+                                <img src="./contact/mark.svg" alt="" />
                                 <p className="text-p text-brand-grey">Boao Lecheng International Medical Tourism Pilot Zone, Hainan, China.</p>
                             </div>
                             <Button className="h-fit">
