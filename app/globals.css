@@ -1,26 +1,89 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+  --color-brand-primary: #A49370;
+  --color-brand-secondary: #101010;
+  --color-brand-grey: #9C9C9C;
+  --color-brand-grey-dark: #5C5C5C;
+  --color-brand-light: #f1f1f1;
+  --color-brand-white: #ffffff;
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+  --font-sans: var(--font-poppins), sans-serif;
+
+  --animate-marquee: marquee 20s linear infinite;
+
+  @keyframes marquee {
+    from {
+      transform: translateX(0%);
+    }
+
+    to {
+      transform: translateX(-100%);
+    }
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+/* =========================================
+   CUSTOM ANIMATIONS
+   ========================================= */
+
+@keyframes float-slow {
+  0% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(-12px);
+  }
+
+  /* Bergerak naik 12 pixel */
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.animate-float-slow {
+  /* 4s = durasi 4 detik (semakin besar semakin lambat) */
+  /* ease-in-out = pergerakan mulus di awal dan akhir */
+  /* infinite = tidak pernah berhenti */
+  animation: float-slow 4s ease-in-out infinite;
+}
+
+/* Opsional: Jika kamu ingin pergerakannya beda-beda (tidak barengan) */
+.delay-1000 {
+  animation-delay: 1s;
+}
+
+.delay-2000 {
+  animation-delay: 2s;
+}
+
+@layer components {
+  .text-h1 {
+    @apply text-[42px] md:text-[96px] lg:text-[96px] font-medium text-brand-secondary font-sans tracking-[-4%] leading-[102%];
+  }
+
+  .text-h2 {
+    @apply text-[24px] md:text-[42px] lg:text-[42px] font-medium text-brand-secondary font-sans tracking-[-4%] leading-[102%];
+  }
+
+  .text-h3 {
+    @apply text-[24px] font-medium text-brand-secondary font-sans tracking-[-4%] leading-[102%];
+  }
+
+  .text-h4 {
+    @apply text-[16px] md:text-[24px] lg:text-[24px] font-medium text-brand-secondary font-sans tracking-[-4%];
+  }
+
+  .text-p {
+    @apply text-[16px] md:text-[18px] lg:text-[18px] text-brand-secondary tracking-[-4%];
+  }
+
+  .text-small {
+    @apply text-[14px] md:text-[16px] lg:text-[16px] text-brand-secondary font-sans tracking-[-4%];
+  }
+}
+
+.pause-on-hover:hover .animate-marquee {
+  animation-play-state: paused;
 }
