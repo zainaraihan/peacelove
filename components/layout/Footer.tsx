@@ -40,19 +40,11 @@ export default function Footer() {
                                     <h4 className="text-small font-semibold text-brand-white">Admin Office</h4>
                                     <p className="text-small text-brand-white md:w-[25vw]">VA-02-06 No.1, Jalan Setia Murni U13/51, Setia Alam, Seksyen U13, 40170 Shah Alam, Selangor Darul Ehsan</p>
                                 </div>
-                                <div className="flex flex-col gap-[10px]">
-                                    <h4 className="text-small font-semibold text-brand-white">Payment Gateway Office</h4>
-                                    <p className="text-small text-brand-white md:w-[26vw]">51-10, Level 10, Boulevard Office, Midvalley City, Lingkaran Syed Putra, 59200, Kuala Lumpur</p>
-                                </div>
                             </div>
                             <div className="w-[244px] md:w-[30vw] text-brand-white flex flex-col gap-[18px] md:gap-[64px]">
                                 <div className="flex flex-col gap-[10px]">
-                                    <h4 className="text-small font-semibold text-brand-white">PL Dream Factory</h4>
-                                    <p className="text-small text-brand-white md:w-[22vw]">Dream factory, GMBB, Level 7, CW 1-3, No.2, Jalan Robertson, Bukit Bintang, 50150 Kuala Lumpur</p>
-                                </div>
-                                <div className="flex flex-col gap-[10px]">
-                                    <h4 className="text-small font-semibold text-brand-white">PL Training Centre</h4>
-                                    <p className="text-small text-brand-white md:w-[23vw]">Unit 5-6, Level 3A, Wisma BU8, Lebuh Bandar Utama, 47800,Petaling Jaya, Selangor.</p>
+                                    <h4 className="text-small font-semibold text-brand-white">Marketing Office</h4>
+                                    <p className="text-small text-brand-white md:w-[22vw]">One Avenue 2-13A, Dataran Pelangi Utama, Jalan Masjid, PJU6A, Bandar Utama, Petaling Jaya, 47400, Selangor Darul Ehsan.</p>
                                 </div>
                             </div>
                         </div>
