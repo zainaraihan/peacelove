@@ -20,7 +20,7 @@ export default function Navbar() {
                     <a href="./"><img src="./logo.svg?v=2" className="md:w-[193px]" alt="" /></a>
                 </div>
 
-                <div className="hidden md:flex items-center gap-10 lg:gap-18">
+                <div className="hidden md:flex items-center gap-10 lg:gap-25">
                     {menuItems.map((item, index) => (
                         <a
                             key={index}
@@ -29,9 +29,14 @@ export default function Navbar() {
                             {item.name}
                         </a>
                     ))}
-                    <Button className='flex flex-col w-full items-center'>
-                        <a className='px-2' href="https://login.pnl-intl.com/Login_m.aspx">Login</a>
-                    </Button>
+                    <div className='flex items-center gap-5'>
+                        <Button className='flex flex-col w-full items-center'>
+                            <a className='px-2' href="https://login.pnl-intl.com/Login_m.aspx">Login</a>
+                        </Button>
+                        <a className='w-7 h-7' href="https://twmember.bouleglobal.com/PnL/PnLMarketplace">
+                            <img className='w-full h-full' src="./cart.svg" alt="" />
+                        </a>
+                    </div>
                 </div>
 
                 <button onClick={() => setIsOpen(!isOpen)} className='p-2 md:hidden text-brand-secondary focus: outline-none' aria-label="Toggle Menu">
@@ -50,6 +55,9 @@ export default function Navbar() {
                         </button>
                     </div>
                     <div className="flex flex-col items-center justify-center flex-grow gap-8">
+                        <a className='w-7 h-7' href="https://twmember.bouleglobal.com/PnL/PnLMarketplace">
+                            <img className='w-full h-full' src="./cart.svg" alt="" />
+                        </a>
                         {menuItems.map((item, index) => (
                             <a
                                 key={index}

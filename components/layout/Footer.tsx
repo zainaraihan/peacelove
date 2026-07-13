@@ -7,22 +7,22 @@ export default function Footer() {
                 <div className="flex flex-col md:flex-row md:justify-between gap-[193px] md:gap-[0px]">
                     <div className="flex flex-col gap-10">
                         <div>
-                            <a href="#" className="text-h1 md:text-[42px] font-medium text-brand-white">
+                            <a href="/about" className="text-h1 md:text-[42px] font-medium text-brand-white">
                                 About
                             </a>
                         </div>
                         <div>
-                            <a href="#" className="text-h1 md:text-[42px] font-medium text-brand-white">
+                            <a href="/opportunity" className="text-h1 md:text-[42px] font-medium text-brand-white">
                                 Opportunity
                             </a>
                         </div>
                         <div>
-                            <a href="#" className="text-h1 md:text-[42px] font-medium text-brand-white">
+                            <a href="/services" className="text-h1 md:text-[42px] font-medium text-brand-white">
                                 Services
                             </a>
                         </div>
                         <div>
-                            <a href="#" className="text-h1 md:text-[42px] font-medium text-brand-white">
+                            <a href="/contact" className="text-h1 md:text-[42px] font-medium text-brand-white">
                                 Contact
                             </a>
                         </div>

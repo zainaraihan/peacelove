@@ -54,7 +54,7 @@ export default function Services() {
             <Container>
                 <div className="flex flex-col my-15 gap-6 lg:flex-row lg:items-center">
                     <h1 className="text-h1 w-60 lg:w-240"><span className='text-brand-grey'>Exclusive</span> Products <br /> <span className='text-brand-grey'>&</span> Services</h1>
-                    <p className="text-p font-medium w-90 lg:w-90">Your gateway to the world’s most advanced cellular nutrition, health innovations, and elite regenerative medicine.</p>
+                    <p className="text-p font-medium lg:w-90">Your gateway to the world’s most advanced cellular nutrition, health innovations, and elite regenerative medicine.</p>
                 </div>
             </Container>
             <div className="border-b-1 border-brand-grey"></div>
@@ -74,7 +74,7 @@ export default function Services() {
                                     <h3 className="text-h3 mb-5 font-semibold">{bpmCards[bpmSlide].price}</h3>
                                     <div>
                                         <p className="text-p font-semibold mb-2">{bpmCards[bpmSlide].name}</p>
-                                        <p className="text-p font-medium text-brand-grey w-80">{bpmCards[bpmSlide].desc}</p>
+                                        <p className="text-p font-medium text-brand-grey w-">{bpmCards[bpmSlide].desc}</p>
                                     </div>
                                 </div>
                             </div>
@@ -184,7 +184,7 @@ export default function Services() {
             </Container>
             <div className="flex items-end h-[663px] my-30 bg-[url('/services/experience.png')] bg-center bg-cover md:h-[871px] md:my-50">
                 <div className="flex flex-col relative top-6 backdrop-blur-sm py-10 bg-[linear-gradient(180deg,rgba(153,153,153,0)-10.12%,#FFF_62.95%)] md:w-full md:py-20">
-                    <div className="flex flex-col px-[18px] md:px-[3vw] items-center gap-10">
+                    <div className="flex flex-col md:px-[3vw] items-center gap-10">
                         <h1 className="text-h1 text-center lg:w-[80vw]">Experience the Ultimate Health & Wealth</h1>
                         <p className="text-p text-center w-90 md:w-200">Unlock world-class health and join P&L's 100-Billion Global Business Platform with our premium packages. Start building your lifelong career today.</p>
                         <div className="flex gap-4">

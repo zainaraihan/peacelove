@@ -8,19 +8,19 @@ import Button from '@/components/ui/Button';
 const faqData = [
   {
     question: "What makes BPM products different from other anti-aging brands?",
-    answer: "The expert team consists of two members: Dr. Ricardo.G.Correa (Principal Scientific Advisor) and Dr. Itay Shafat (Principal Technical Advisor), who work together to lay a solid scientific foundation for product development."
+    answer: "P&L International is a modern retail platform offering BPM's ultimate anti-aging products, 38Fule's women's wellness items, and exclusive stem cell medical tourism packages for global clients."
   },
   {
     question: "Where are BPM products manufactured and tested?",
-    answer: "The expert team consists of two members: Dr. Ricardo.G.Correa (Principal Scientific Advisor) and Dr. Itay Shafat (Principal Technical Advisor), who work together to lay a solid scientific foundation for product development."
+    answer: "Founded by Malaysian entrepreneur Dr. M. Alvin Hiew, our International CEO brings over thirty-five years of direct selling experience, collaborating closely with Chairman Mr. Yuan Xiaofeng."
   },
   {
     question: "Are your health supplements safe for daily consumption?",
-    answer: "The expert team consists of two members: Dr. Ricardo.G.Correa (Principal Scientific Advisor) and Dr. Itay Shafat (Principal Technical Advisor), who work together to lay a solid scientific foundation for product development."
+    answer: "Purchasing our premium packages unlocks world-class health benefits and grants immediate access to our massive hundred-billion global business platform, empowering you to build a lifelong career."
   },
   {
     question: "Who can truly benefit from P&L's advanced nutritional solutions?",
-    answer: "The expert team consists of two members: Dr. Ricardo.G.Correa (Principal Scientific Advisor) and Dr. Itay Shafat (Principal Technical Advisor), who work together to lay a solid scientific foundation for product development."
+    answer: "Absolutely! Joining us instantly connects you to an inclusive global community passionate about comprehensive wellness, lifestyle elevation, and achieving lasting financial freedom through our rewarding network."
   }
 ];
 
