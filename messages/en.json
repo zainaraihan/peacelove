@@ -1,0 +1,209 @@
+{
+  "Metadata": {
+    "title": "P&L International | Premium Health & Global Business Platform",
+    "description": "P&L International is a premier cross-border modern retail platform dedicated to ultimate health, anti-aging, and lifelong wellness. Join our 100-Billion Global Business Platform.",
+    "ogTitle": "P&L International | Premium Health & Global Business Platform",
+    "ogDescription": "Unlock world-class health and join P&L's 100-Billion Global Business Platform. Premium cellular nutrition, women's wellness, and elite stem cell medical tourism.",
+    "twitterTitle": "P&L International | Premium Health & Global Business Platform",
+    "twitterDescription": "Unlock world-class health and join P&L's 100-Billion Global Business Platform."
+  },
+  "Navbar": {
+    "about": "About",
+    "opportunity": "Opportunity",
+    "services": "Services",
+    "contact": "Contact",
+    "login": "Login",
+    "mall": "Mall"
+  },
+  "Footer": {
+    "about": "About",
+    "opportunity": "Opportunity",
+    "services": "Services",
+    "contact": "Contact",
+    "login": "Login",
+    "mall": "Mall",
+    "bloom": "Bloom Globally.",
+    "adminOffice": "Admin Office",
+    "adminAddress": "VA-02-06 No.1, Jalan Setia Murni U13/51, Setia Alam, Seksyen U13, 40170 Shah Alam, Selangor Darul Ehsan",
+    "marketingOffice": "Marketing Office",
+    "marketingAddress": "One Avenue 2-13A, Dataran Pelangi Utama, Jalan Masjid, PJU6A, Bandar Utama, Petaling Jaya, 47400, Selangor Darul Ehsan.",
+    "copyright": "©2026 Peace&Love"
+  },
+  "Home": {
+    "hero": {
+      "title": "Bloom Globally.",
+      "description": "<grey>A</grey> premier cross-border modern <grey>retail</grey> platform <grey>dedicated to</grey> ultimate health, anti-aging, <grey>and</grey> lifelong wellness."
+    },
+    "chairman": {
+      "title": "Redefining <br></br> <grey>Global</grey> Wellness & <grey>Wealth</grey>",
+      "role": "Group Chairman",
+      "name": "Mr. Yuan XiaoFeng",
+      "message": "At Peace&Love, we believe in br/inging the best of science, nature, and innovation directly to you. Adhering to the principles of peace and love, we connect high-end customers worldwide with elite healthcare solutions and a life-changing global business platform."
+    },
+    "partners": {
+      "title": "<grey>Our</grey> Core Partners <grey>&</grey> Premier <grey>Solutions</grey>",
+      "subtitle": "World-Class <br></br>Innovations for Your Health",
+      "bpm": "BPM Wellness (USA)",
+      "fule": "38Fule Group (China)",
+      "stem": "Stem Cell Medical Center"
+    },
+    "platform": {
+      "title": "<grey>The</grey> 100-Billion <grey>Global Platform</grey>",
+      "description": "P&L International is more than just a business; it is a lifelong career. We offer a unique, legally compliant, and highly rewarding direct-selling and modern retail compensation plan. Make friends worldwide, do business globally, and create sustainable wealth with us."
+    },
+    "empower": {
+      "title": "Empowering <grey>Future</grey> <br></br> Leaders",
+      "description": "We don't just build businesses; we build industry experts. Through our exclusive university partnerships and talent development programs, our members can achieve certified nutritionist coaching and higher education degrees."
+    },
+    "cta": {
+      "title": "<grey>Ready</grey> To Transform <grey>Your</grey> Life?",
+      "description": "Join the P&L family today. Whether you are seeking premium health products or a lucrative global business, your journey to a better tomorrow starts right here.",
+      "button": "Contact Us Now"
+    },
+    "faq": {
+      "title": "FAQ",
+      "q1": "What makes BPM products different from other anti-aging br/ands?",
+      "a1": "P&L International is a modern retail platform offering BPM's ultimate anti-aging products, 38Fule's women's wellness items, and exclusive stem cell medical tourism packages for global clients.",
+      "q2": "Where are BPM products manufactured and tested?",
+      "a2": "Founded by Malaysian entrepreneur Dr. M. Alvin Hiew, our International CEO br/ings over thirty-five years of direct selling experience, collaborating closely with Chairman Mr. Yuan Xiaofeng.",
+      "q3": "Are your health supplements safe for daily consumption?",
+      "a3": "Purchasing our premium packages unlocks world-class health benefits and grants immediate access to our massive hundred-billion global business platform, empowering you to build a lifelong career.",
+      "q4": "Who can truly benefit from P&L's advanced nutritional solutions?",
+      "a4": "Absolutely! Joining us instantly connects you to an inclusive global community passionate about comprehensive wellness, lifestyle elevation, and achieving lasting financial freedom through our rewarding network."
+    }
+  },
+  "About": {
+    "title": "<grey>About</grey> <br></br> P&L International",
+    "subtitle": "Empowering Global Wellness, Inspiring Lifelong Wealth.",
+    "intro": "Peace&Love (P&L) International <grey>is a modern</grey> global retail platform dedicated <grey>to providing</grey> the world’s high-end <grey>customers with</grey> ultimate health solutions. We seamlessly <grey>br/idge borders</grey> to br/ing you BPM Ultimate Anti-Aging products <grey>from the</grey> United States, trusted women's health innovations from China's 38Fule Group, <grey>and</grey> exclusive stem cell medical tourism in Boao, Hainan <grey>provided by</grey> Zhonghai Yinglian.",
+    "philosophy": {
+      "title": "<grey>Our</grey> Philosophy <grey>& Heritage</grey>",
+      "description": "Adhering to our core principles of peace and love, we are committed to providing every customer with only the best products and services. We do not just build a business; we build a lifelong career for our partners."
+    },
+    "milestones": {
+      "years": "34 <grey>Glorious</grey> <br></br> Years",
+      "trust": "<grey>Building</grey> <br></br> Trust",
+      "foundation": "<grey>Solid</grey> Global <br></br> Foundation"
+    },
+    "leadership": {
+      "title": "Visionary Leadership",
+      "bio": "P&L International was founded by renowned Malaysian entrepreneur, Dr. M Alvin Hiew, serving as the International CEO. With over 35 years of successful experience in direct selling management and global network expansion, Dr. Hiew br/ings unparalleled expertise to the platform. Working closely with Group Chairman Mr. Yuan Xiaofeng, and backed by the full support of our parent group, P&L is driven by a leadership team dedicated to global market excellence and the ultimate well-being of humanity."
+    }
+  },
+  "Contact": {
+    "title": "<grey>Get In</grey> Touch <br></br> With Us",
+    "subtitle": "Your journey to ultimate health and global wealth begins here.",
+    "heading": "<grey>How</grey> Can <grey>We</grey> Help You Today?",
+    "form": {
+      "namePlaceholder": "Full Name",
+      "emailPlaceholder": "Email Address",
+      "phonePlaceholder": "Phone Number (e.g. +62 81234567890)",
+      "messagePlaceholder": "Message",
+      "submit": "Send Message",
+      "sending": "Sending…",
+      "success": "✓ Your message has been sent! We'll get back to you soon.",
+      "error": "✗ Something went wrong. Please try again or contact us directly.",
+      "errors": {
+        "name": "Name must be at least 2 characters.",
+        "email": "Please enter a valid email address (e.g. user@example.com).",
+        "phoneRequired": "Phone number is required.",
+        "phoneFormat": "Format: +[country code] [number] — e.g. +62 81234567890 (min. 6 digits after space).",
+        "message": "Message must be at least 10 characters."
+      }
+    },
+    "offices": {
+      "title": "<grey>Our</grey> Global Offices <br></br> <grey>&</grey> Partners",
+      "plOffice": "P&L Management Office",
+      "plAddress": "VA-02-06, No.1, Jalan Setia Murni U13/51, Setia Alam, Seksyen U13, 40170 Shah Alam, Selangor Darul Ehsan.",
+      "bpmOffice": "BPM Wellness",
+      "bpmAddress": "34 Maple Avenue, New Jersey, USA, ZIP code 07058.",
+      "fuleOffice": "38Fule Group",
+      "fuleAddress": "38 Fule Building, No.1 Tangyan Road, High-Tech District, Shaanxi Province, China.",
+      "stemOffice": "Stem Cell Medical Center",
+      "stemAddress": "Boao Lecheng International Medical Tourism Pilot Zone, Hainan, China."
+    }
+  },
+  "Opportunity": {
+    "title": "<grey>The</grey> <br></br> 100-Billion <br></br> <grey>Global Platform</grey>",
+    "intro": {
+      "title": "A <grey>Modern</grey> <br></br> Cross-Border <br></br> <grey>Retail</grey> Opportunity",
+      "desc1": "P&L International disrupts the traditional market by combining top-tier health products with a revolutionary business system. We operate on an innovative Trinary Plan—a highly rewarding modern retail compensation structure designed to maximize your earning potential.",
+      "desc2": "By joining us, you are not just selling products, you are sharing ultimate health solutions from BPM, 38Fule, and Zhonghai Yinglian, while earning substantial, sustainable income."
+    },
+    "experts": {
+      "title": "<grey>We</grey> Build <br></br> Experts, <grey>Not Just</grey> <br></br> Distributors",
+      "desc1": "Sustainability in business requires knowledge and professionalism. P&L International is committed to cultivating industry elites through our comprehensive Talent Development program.",
+      "desc2": "In exclusive partnership with the Malaysia Education Empowerment Organization (MEEO) and various prestigious universities globally, we offer structured education pathways tailored for our members."
+    },
+    "radar": {
+      "item1": "Zero-Risk, High-Reward <grey>Global</grey> System",
+      "item2": "<grey>Lucrative</grey> Trinary Compensation <grey>Plan</grey>",
+      "item3": "<grey>Seamless</grey> global payouts <grey>via</grey> P&L payment gateway <grey>support by</grey> Visa & HSBC globally"
+    },
+    "slider": {
+      "certTitle": "Professional Certification",
+      "certDesc": "Earn globally recognized titles such as Certified Nutritionist Coach to elevate your professional credibility.",
+      "diplomaTitle": "Executive Diplomas",
+      "diplomaDesc": "Master business management, direct selling strategies, and health sciences.",
+      "degreeTitle": "Degree Programs",
+      "degreeDesc": "Advance your academic qualifications through our affiliated international universities (UK & USA)."
+    },
+    "challenge": {
+      "title": "<grey>Choosing</grey> the Right Company <grey>is the</grey> Real Challenge",
+      "desc1": "In a market flooded with short-lived trends, P&L International stands strong. Backed by 34 years of glorious history, legally licensed operations, and world-class scientific foundations, we offer something truly rare: Security, Longevity, and Integrity.",
+      "desc2": "Create another century of glory with a company that values peace, love, and your ultimate success."
+    },
+    "cta": {
+      "title": "Ready <grey>to</grey> Build <grey>Your</grey> Legacy?",
+      "desc": "Take control of your future today. Enjoy FREE member registration and step into the 100-Billion Platform.",
+      "button": "Contact Us Now"
+    }
+  },
+  "Services": {
+    "title": "<grey>Exclusive</grey> Products <br></br> <grey>&</grey> Services",
+    "subtitle": "Your gateway to the world’s most advanced cellular nutrition, health innovations, and elite regenerative medicine.",
+    "bpm": {
+      "title": "<grey>The</grey> Peak <grey>of</grey> Cellular Nutrition",
+      "desc": "Sourced and manufactured in the USA, BPM Wellness utilizes the latest nanotechnology to deliver world-class cellular nutrition.",
+      "learnMore": "Learn More",
+      "products": {
+        "aurora": {
+          "name": "Aurora",
+          "desc": "A skin whitening product that can block melanin from the source."
+        },
+        "akg": {
+          "name": "AKG Evolution",
+          "desc": "AKG Evolution dietary capsules promote cell energy and longevity."
+        },
+        "super": {
+          "name": "Super Antioxidant",
+          "desc": "Provide powerful cellular antioxidant support."
+        }
+      }
+    },
+    "fule": {
+      "title": "<grey>Empowering</grey> <br></br> Women’s Wellness",
+      "desc1": "With over 34 years of glorious history, the 38Fule Group from Shaanxi, China, is a legally licensed and highly respected pioneer in women's health.",
+      "desc2": "We br/ing you deeply trusted, premium healthcare solutions specifically designed to nurture and protect women's well-being at every stage of life.",
+      "learnMore": "Learn More"
+    },
+    "stem": {
+      "title": "<grey>Elite</grey> Stem Cell Medical <grey>Tourism in</grey> Hainan",
+      "desc": "Travel for health, travel for life. Through our partnership with Zhonghai Yinglian—a scientist-led, world-class regenerative medicine enterprise—we offer an exclusive medical tourism experience in the Boao Lecheng Pilot Zone, Hainan. Experience state-of-the-art immune and stem cell therapies designed to transform your vitality.",
+      "learnMore": "Learn More",
+      "privilege": "*Special Privilege : Every package comes with a Free Masterpay Card worth US$100.",
+      "options": {
+        "firstTime": "1st Time Visitor",
+        "firstTimeDesc": "Includes 5500 CV for Business Members",
+        "returnVisitor": "2nd Time & Above",
+        "returnVisitorDesc": "Includes 3500 CV for Business Members"
+      }
+    },
+    "cta": {
+      "title": "Experience the Ultimate Health & Wealth",
+      "desc": "Unlock world-class health and join P&L's 100-Billion Global Business Platform with our premium packages. Start building your lifelong career today.",
+      "buttonJoin": "Join Member",
+      "buttonPurchase": "Contact to Purchase"
+    }
+  }
+}

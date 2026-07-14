@@ -3,26 +3,30 @@
 import Container from "@/components/layout/Container";
 import Button from "@/components/ui/Button";
 import { useState } from "react";
+import { useTranslations } from 'next-intl';
+import { Link } from '@/i18n/routing';
 
 export default function Services() {
+    const t = useTranslations('Services');
+
     const bpmCards = [
         {
-            img: "./services/card/aurora.png",
+            img: "/services/card/aurora.png",
             price: "US$44.50",
-            name: "Aurora",
-            desc: "A skin whitening product that can block melanin from the source.",
+            name: t('bpm.products.aurora.name'),
+            desc: t('bpm.products.aurora.desc'),
         },
         {
-            img: "./services/card/akg.png",
+            img: "/services/card/akg.png",
             price: "US$89.50",
-            name: "AKG Evolution",
-            desc: "AKG Evolution dietary capsules promote cell energy and longevity.",
+            name: t('bpm.products.akg.name'),
+            desc: t('bpm.products.akg.desc'),
         },
         {
-            img: "./services/card/super.png",
+            img: "/services/card/super.png",
             price: "US$56.00",
-            name: "Super Antioxidant",
-            desc: "Provide powerful cellular antioxidant support.",
+            name: t('bpm.products.super.name'),
+            desc: t('bpm.products.super.desc'),
         },
     ];
     const [bpmSlide, setBpmSlide] = useState(0);
@@ -32,16 +36,16 @@ export default function Services() {
 
     const stemCards = [
         {
-            label: "1st Time Visitor",
-            img: "./services/timevisitor.png?v=2",
+            label: t('stem.options.firstTime'),
+            img: "/services/timevisitor.png?v=2",
             price: "US$ 7,500",
-            desc: "Includes 5500 CV for Business Members",
+            desc: t('stem.options.firstTimeDesc'),
         },
         {
-            label: "2nd Time & Above",
-            img: "./services/card/2nd.png?v=2",
+            label: t('stem.options.returnVisitor'),
+            img: "/services/card/2nd.png?v=2",
             price: "US$ 5,000",
-            desc: "Includes 3500 CV for Business Members",
+            desc: t('stem.options.returnVisitorDesc'),
         },
     ];
     const [stemSlide, setStemSlide] = useState(0);
@@ -50,21 +54,30 @@ export default function Services() {
 
     return (
         <div>
-            <img className="w-full h-[376px] object-cover lg:h-[300px]" src="./services/head.png?v=2" alt="" />
+            <img className="w-full h-[376px] object-cover lg:h-[300px]" src="/services/head.png?v=2" alt="" />
             <Container>
                 <div className="flex flex-col my-15 gap-6 lg:flex-row lg:items-center">
-                    <h1 className="text-h1 w-60 lg:w-240"><span className='text-brand-grey'>Exclusive</span> Products <br /> <span className='text-brand-grey'>&</span> Services</h1>
-                    <p className="text-p font-medium lg:w-90">Your gateway to the world’s most advanced cellular nutrition, health innovations, and elite regenerative medicine.</p>
+                    <h1 className="text-h1 w-60 lg:w-240">
+                        {t.rich('title', {
+                            br: () => <br />,
+                            grey: (chunks) => <span className='text-brand-grey'>{chunks}</span>
+                        })}
+                    </h1>
+                    <p className="text-p font-medium lg:w-90">{t('subtitle')}</p>
                 </div>
             </Container>
             <div className="border-b-1 border-brand-grey"></div>
             <Container>
                 <div className="flex flex-col gap-8 my-15 md:flex-row md:items-start md:gap-[10vw] md:my-30">
-                    <img className="w-40" src="./home/card/bpmlogo.svg?v=2" alt="" />
+                    <img className="w-40" src="/home/card/bpmlogo.svg?v=2" alt="" />
                     <div className="flex flex-col gap-10">
                         <div className="flex flex-col gap-3 md:flex-row md:items-center">
-                            <h2 className="text-h2 w-50 md:w-[40vw]"><span className='text-brand-grey'>The</span> Peak <span className='text-brand-grey'>of</span> Cellular Nutrition</h2>
-                            <p className="text-p text-brand-grey font-medium md:w-full">Sourced and manufactured in the USA, BPM Wellness utilizes the latest nanotechnology to deliver world-class cellular nutrition.</p>
+                            <h2 className="text-h2 w-50 md:w-[40vw]">
+                                {t.rich('bpm.title', {
+                                    grey: (chunks) => <span className='text-brand-grey'>{chunks}</span>
+                                })}
+                            </h2>
+                            <p className="text-p text-brand-grey font-medium md:w-full">{t('bpm.desc')}</p>
                         </div>
                         {/* Mobile: slider — Desktop: row */}
                         <div className="block lg:hidden">
@@ -74,7 +87,7 @@ export default function Services() {
                                     <h3 className="text-h3 mb-5 font-semibold">{bpmCards[bpmSlide].price}</h3>
                                     <div>
                                         <p className="text-p font-semibold mb-2">{bpmCards[bpmSlide].name}</p>
-                                        <p className="text-p font-medium text-brand-grey w-">{bpmCards[bpmSlide].desc}</p>
+                                        <p className="text-p font-medium text-brand-grey">{bpmCards[bpmSlide].desc}</p>
                                     </div>
                                 </div>
                             </div>
@@ -96,14 +109,14 @@ export default function Services() {
                         <div className="flex justify-between">
                             <div className="flex gap-4 lg:hidden">
                                 <button onClick={prevBpm} aria-label="Previous">
-                                    <img className="w-10" src="./opportunity/arrowleft.svg?v=2" alt="Arrow Left" />
+                                    <img className="w-10" src="/opportunity/arrowleft.svg?v=2" alt="Arrow Left" />
                                 </button>
                                 <button onClick={nextBpm} aria-label="Next">
-                                    <img className="w-10" src="./opportunity/arrowright.svg?v=2" alt="Arrow Right" />
+                                    <img className="w-10" src="/opportunity/arrowright.svg?v=2" alt="Arrow Right" />
                                 </button>
                             </div>
                             <Button>
-                                <a href="https://www.bpmlife.com/">Learn More</a>
+                                <a href="https://www.bpmlife.com/">{t('bpm.learnMore')}</a>
                             </Button>
                         </div>
                     </div>
@@ -112,19 +125,24 @@ export default function Services() {
             <div className="py-15 bg-[linear-gradient(180deg,#F1F1F1_0%,#F1F1F1_62.07%,#FFF_94.96%)]">
                 <div className="px-[18px] md:px-[3vw] ">
                     <div className="flex flex-col gap-8 md:flex-row md:items-start md:gap-[10vw]">
-                        <img className="w-40" src="./home/card/38fulelogo.svg?v=2" alt="" />
+                        <img className="w-40" src="/home/card/38fulelogo.svg?v=2" alt="" />
                         <div className="flex flex-col gap-10 lg:w-full">
                             <div className="flex flex-col gap-3 md:gap-10">
-                                <h2 className="text-h2 w-80 md:w-100"><span className='text-brand-grey'>Empowering</span> <br /> Women’s Wellness</h2>
+                                <h2 className="text-h2 w-80 md:w-100">
+                                    {t.rich('fule.title', {
+                                        br: () => <br />,
+                                        grey: (chunks) => <span className='text-brand-grey'>{chunks}</span>
+                                    })}
+                                </h2>
                                 <div className="flex flex-col gap-3 md:flex-row lg:w-full">
-                                    <p className="text-p text-brand-grey font-medium w-85 md:w-full">With over 34 years of glorious history, the 38Fule Group from Shaanxi, China, is a legally licensed and highly respected pioneer in women's health.</p>
-                                    <p className="text-p text-brand-grey font-medium w-85 md:w-full">We bring you deeply trusted, premium healthcare solutions specifically designed to nurture and protect women's well-being at every stage of life.</p>
+                                    <p className="text-p text-brand-grey font-medium w-85 md:w-full">{t('fule.desc1')}</p>
+                                    <p className="text-p text-brand-grey font-medium w-85 md:w-full">{t('fule.desc2')}</p>
                                 </div>
                             </div>
-                            <img className="mt-10 w-full object-cover h-[304px] md:h-[450px] lg:mt-0" src="./services/empowering.png?v=2" alt="" />
+                            <img className="mt-10 w-full object-cover h-[304px] md:h-[450px] lg:mt-0" src="/services/empowering.png?v=2" alt="" />
                             <div>
                                 <Button className="flex flex-col w-full text-p md:w-auto">
-                                    <a href="https://www.38fule.com/">Learn More</a>
+                                    <a href="https://www.38fule.com/">{t('fule.learnMore')}</a>
                                 </Button>
                             </div>
                         </div>
@@ -133,12 +151,16 @@ export default function Services() {
             </div>
             <Container>
                 <div className="flex flex-col gap-8 my-15 lg:flex-row md:items-start md:gap-[10vw]">
-                    <img className="w-45" src="./home/card/zhonghailogo.png?v=2" alt="" />
+                    <img className="w-45" src="/home/card/zhonghailogo.png?v=2" alt="" />
                     <div className="flex flex-col gap-10">
                         <div className="flex flex-col gap-3">
-                            <h2 className="text-h2 w-60 md:w-150"><span className='text-brand-grey'>Elite</span> Stem Cell Medical <span className='text-brand-grey'>Tourism in</span> Hainan</h2>
-                            <img className="mt-4 w-full object-cover h-[304px] overflow-x-visible lg:h-full md:mt-10" src="./services/elitestem.png?v=2" alt="" />
-                            <p className="text-p text-brand-grey font-medium mt-6 md:py-5">Travel for health, travel for life. Through our partnership with Zhonghai Yinglian—a scientist-led, world-class regenerative medicine enterprise—we offer an exclusive medical tourism experience in the Boao Lecheng Pilot Zone, Hainan. Experience state-of-the-art immune and stem cell therapies designed to transform your vitality.</p>
+                            <h2 className="text-h2 w-60 md:w-150">
+                                {t.rich('stem.title', {
+                                    grey: (chunks) => <span className='text-brand-grey'>{chunks}</span>
+                                })}
+                            </h2>
+                            <img className="mt-4 w-full object-cover h-[304px] overflow-x-visible lg:h-full md:mt-10" src="/services/elitestem.png?v=2" alt="" />
+                            <p className="text-p text-brand-grey font-medium mt-6 md:py-5">{t('stem.desc')}</p>
                         </div>
                         {/* Mobile: slider — Desktop: row */}
                         <div className="block md:hidden">
@@ -164,18 +186,18 @@ export default function Services() {
                             ))}
                         </div>
                         <div className="flex flex-col gap-8 md:flex-row-reverse md:justify-between md:items-center md:py-10">
-                            <p className="text-p text-brand-grey-dark font-medium md:w-[50vw]">*Special Privilege : Every package comes with a Free Masterpay Card worth US$100.</p>
+                            <p className="text-p text-brand-grey-dark font-medium md:w-[50vw]">{t('stem.privilege')}</p>
                             <div className="flex justify-between">
                                 <div className="flex gap-4 md:hidden">
                                     <button onClick={prevStem} aria-label="Previous">
-                                        <img className="w-10" src="./opportunity/arrowleft.svg?v=2" alt="Arrow Left" />
+                                        <img className="w-10" src="/opportunity/arrowleft.svg?v=2" alt="Arrow Left" />
                                     </button>
                                     <button onClick={nextStem} aria-label="Next">
-                                        <img className="w-10" src="./opportunity/arrowright.svg?v=2" alt="Arrow Right" />
+                                        <img className="w-10" src="/opportunity/arrowright.svg?v=2" alt="Arrow Right" />
                                     </button>
                                 </div>
                                 <Button className="">
-                                    <a href="https://zhonghaiyinglian.com/">Learn More</a>
+                                    <a href="https://zhonghaiyinglian.com/">{t('stem.learnMore')}</a>
                                 </Button>
                             </div>
                         </div>
@@ -185,14 +207,14 @@ export default function Services() {
             <div className="flex items-end h-[663px] my-30 bg-[url('/services/experience.png')] bg-center bg-cover md:h-[871px] md:my-50">
                 <div className="flex flex-col relative top-6 backdrop-blur-sm py-10 bg-[linear-gradient(180deg,rgba(153,153,153,0)-10.12%,#FFF_62.95%)] md:w-full md:py-20">
                     <div className="flex flex-col md:px-[3vw] items-center gap-10">
-                        <h1 className="text-h1 text-center lg:w-[80vw]">Experience the Ultimate Health & Wealth</h1>
-                        <p className="text-p text-center w-90 md:w-200">Unlock world-class health and join P&L's 100-Billion Global Business Platform with our premium packages. Start building your lifelong career today.</p>
+                        <h1 className="text-h1 text-center lg:w-[80vw]">{t('cta.title')}</h1>
+                        <p className="text-p text-center w-90 md:w-200">{t('cta.desc')}</p>
                         <div className="flex gap-4">
                             <Button className="text-p">
-                                <a href="https://login.pnl-intl.com/Login_m.aspx">Join Member</a>
+                                <a href="https://login.pnl-intl.com/Login_m.aspx">{t('cta.buttonJoin')}</a>
                             </Button>
                             <Button className="text-p">
-                                <a href="/contact">Contact to Purchase</a>
+                                <Link href="/contact">{t('cta.buttonPurchase')}</Link>
                             </Button>
                         </div>
                     </div>
