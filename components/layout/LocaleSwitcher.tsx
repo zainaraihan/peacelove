@@ -10,7 +10,7 @@ export default function LocaleSwitcher() {
   const currentLocale = useLocale();
   const [isPending, startTransition] = useTransition();
 
-  const handleLocaleChange = (nextLocale: 'en' | 'zh') => {
+  const handleLocaleChange = (nextLocale: 'en' | 'zh' | 'th') => {
     if (nextLocale === currentLocale) return;
     startTransition(() => {
       router.replace(pathname, { locale: nextLocale });
@@ -37,6 +37,16 @@ export default function LocaleSwitcher() {
         aria-label="Switch to Mandarin Chinese"
       >
         中文
+      </button>
+      <span className="text-brand-grey/40 select-none">|</span>
+      <button
+        onClick={() => handleLocaleChange('th')}
+        disabled={isPending}
+        className={`hover:text-brand-primary transition-colors cursor-pointer focus:outline-none ${currentLocale === 'th' ? 'text-brand-primary' : 'text-brand-secondary'
+          }`}
+        aria-label="Switch to Thai"
+      >
+        ไทย
       </button>
     </div>
   );

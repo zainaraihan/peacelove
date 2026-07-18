@@ -37,15 +37,15 @@
     "chairman": {
       "title": "重新定义 <br></br> <grey>全球</grey>健康与<grey>财富</grey>",
       "role": "集团董事长",
-      "name": "袁晓峰 先生",
+      "name": "Mr. Yuan Xiaofeng",
       "message": "在 Peace&Love，我们相信将科学、自然和创新的精髓直接带给您。秉承和平与爱的理念，我们将全球的高端客户与精英医疗解决方案以及改变一生的全球商业平台联系起来。"
     },
     "partners": {
       "title": "我们的<grey>核心</grey>合作伙伴<grey>&</grey>至尊<grey>解决方案</grey>",
       "subtitle": "为您健康打造的 <br></br> 世界级创新",
-      "bpm": "BPM Wellness (美国)",
-      "fule": "三八妇乐集团 (中国)",
-      "stem": "干细胞医疗中心"
+      "bpm": "BPM Wellness (USA)",
+      "fule": "38Fule Group (China)",
+      "stem": "Stem Cell Medical Center"
     },
     "platform": {
       "title": "<grey>千亿级</grey>全球平台",
@@ -63,9 +63,9 @@
     "faq": {
       "title": "常见问题",
       "q1": "什么是 P&L International，提供哪些产品？",
-      "a1": "P&L International 是一个现代零售平台，为全球客户提供 BPM 极致抗衰老产品、三八妇乐女性健康产品以及独家干细胞医疗旅游套餐。",
+      "a1": "P&L International 是一个现代零售平台，为全球客户提供 BPM Wellness 极致抗衰老产品、38Fule Group 女性健康产品以及独家的干细胞医疗旅游套餐。",
       "q2": "P&L International 的创始人是谁？",
-      "a2": "由马来西亚企业家丘自强博士 (Dr. M. Alvin Hiew) 创立，我们的国际总裁拥有超过 35 年的直销经验，并与董事长袁晓峰先生紧密合作。",
+      "a2": "由马来西亚企业家 Dr. M. Alvin Hiew 创立，我们的国际总裁拥有超过 35 年的直销经验，并与董事长 Mr. Yuan Xiaofeng 紧密合作。",
       "q3": "购买尊享套餐有什么好处？",
       "a3": "购买我们的尊享套餐不仅能解锁世界级的健康益处，还能立即进入我们庞大的千亿全球商业平台，赋能您建立终身事业。",
       "q4": "我可以加入任何社区或网络吗？",
@@ -75,7 +75,7 @@
   "About": {
     "title": "<grey>关于</grey> <br></br> P&L International",
     "subtitle": "赋能全球健康，激发终身财富。",
-    "intro": "Peace&Love (P&L) International <grey>是一个现代的</grey>全球零售平台，致力于<grey>为全球</grey>高端客户<grey>提供</grey>终极健康解决方案。我们无缝<grey>跨越国界</grey>，为您带来来自美国的 BPM 极致抗衰老产品、中国三八妇乐集团备受信任的女性健康创新，<grey>以及</grey>海南博鳌由中海英联<grey>提供的</grey>独家干细胞医疗旅游。",
+    "intro": "Peace&Love (P&L) International <grey>是一个现代的</grey>全球零售平台，致力于<grey>为全球</grey>高端客户<grey>提供</grey>终极健康解决方案。我们无缝<grey>跨越国界</grey>，为您带来来自美国的 BPM Wellness 极致抗衰老产品、中国 38Fule Group 备受信任的女性健康创新，<grey>以及</grey>海南博鳌由 Zhonghai Yinglian <grey>提供的</grey>独家干细胞医疗旅游。",
     "philosophy": {
       "title": "我们的<grey>理念与传承</grey>",
       "description": "秉承和平与爱的核心原则，我们致力于为每位客户提供最优质的产品和服务。我们不仅是在建立一份事业，更是在为我们的合作伙伴建立终身的职业生涯。"
@@ -87,7 +87,7 @@
     },
     "leadership": {
       "title": "远见卓识的领导力",
-      "bio": "P&L International 由著名马来西亚企业家丘自强博士 (Dr. M. Alvin Hiew) 创立并担任国际总裁。丘博士在直销管理和全球网络拓展方面拥有超过 35 年的成功经验，为平台带来了无与伦比的专业知识。他与集团董事长袁晓峰先生紧密合作，并在我们母集团的全力支持下，带领一支致力于全球市场卓越和人类极致福祉的领导团队共同推动 P&L 的发展。"
+      "bio": "P&L International 由著名马来西亚企业家 Dr. M. Alvin Hiew 创立并担任国际总裁。他在直销管理和全球网络拓展方面拥有超过 35 年的成功经验，为平台带来了无与伦比的专业知识。他与集团董事长 Mr. Yuan Xiaofeng 紧密合作，并在我们母集团的全力支持下，带领一支致力于全球市场卓越和人类极致福祉的领导团队共同推动 P&L 的发展。"
     }
   },
   "Contact": {
@@ -114,21 +114,21 @@
     "offices": {
       "title": "我们的<grey>全球办公室</grey> <br></br> <grey>&</grey> 合作伙伴",
       "plOffice": "P&L 管理办公室",
-      "plAddress": "VA-02-06, No.1, Jalan Setia Murni U13/51, Setia Alam, Seksyen U13, 40170 Shah Alam, Selangor Darul Ehsan.",
+      "plAddress": "VA-02-06, No.1, Jalan Setia Murni U13/51, Setia Alam, Seksyen U13, 40170 Shah Alam, Selangor Darul Ehsan, Malaysia.",
       "bpmOffice": "BPM Wellness",
       "bpmAddress": "34 Maple Avenue, New Jersey, USA, ZIP code 07058.",
-      "fuleOffice": "三八妇乐集团",
+      "fuleOffice": "38Fule Group",
       "fuleAddress": "38 Fule Building, No.1 Tangyan Road, High-Tech District, Shaanxi Province, China.",
-      "stemOffice": "干细胞医疗中心",
-      "stemAddress": "中国海南博鳌乐城国际医疗旅游先行区。"
+      "stemOffice": "Stem Cell Medical Center",
+      "stemAddress": "Boao Lecheng International Medical Tourism Pilot Zone, Hainan, China."
     }
   },
   "Opportunity": {
     "title": "<grey>千亿级</grey> <br></br> 全球平台",
     "intro": {
       "title": "一个<grey>现代</grey> <br></br> 跨境 <br></br> <grey>零售</grey>机会",
-      "desc1": "P&L International 将顶级健康产品与革命性的商业系统相结合，颠覆了传统市场。我们运行在创新的三轨制计划 (Trinary Plan) 上——一种旨在最大限度提高您收入潜力的丰厚回报现代零售薪酬结构。",
-      "desc2": "加入我们，您不仅是在销售产品，更是在分享来自 BPM、三八妇乐和中海英联的极致健康解决方案，同时赚取可观、可持续的收入。"
+      "desc1": "P&L International 将顶级健康产品与革命性的商业系统相结合，颠覆了传统市场。我们运行在创新的 Trinary Plan 上——一种旨在最大限度提高您收入潜力的丰厚回报现代零售薪酬结构。",
+      "desc2": "加入我们，您不仅是在销售产品，更是在分享来自 BPM Wellness、38Fule Group 和 Zhonghai Yinglian 的极致健康解决方案，同时赚取可观、可持续的收入。"
     },
     "experts": {
       "title": "<grey>我们</grey>培养 <br></br> 专家，<grey>不仅是</grey> <br></br> 分销商",
@@ -137,12 +137,12 @@
     },
     "radar": {
       "item1": "零风险、高回报的<grey>全球化</grey>系统",
-      "item2": "<grey>丰厚的</grey>三轨薪酬<grey>计划</grey>",
-      "item3": "通过 P&L 支付网关提供<grey>无缝</grey>全球结算，在全球范围内由<grey> Visa 与汇丰银行 (HSBC) 支持</grey>"
+      "item2": "<grey>丰厚的</grey> Trinary <grey>薪酬计划</grey>",
+      "item3": "通过 P&L 支付网关提供<grey>无缝</grey>全球结算，在全球范围内由<grey> Visa 与 HSBC 支持</grey>"
     },
     "slider": {
       "certTitle": "专业认证",
-      "certDesc": "获得全球认可的资格证书（如“认证营养师教练”），以提升您的专业信誉。",
+      "certDesc": "获得全球认可的资格证书（如 Certified Nutritionist Coach），以提升您的专业信誉。",
       "diplomaTitle": "高管文凭",
       "diplomaDesc": "掌握企业管理、直销战略和健康科学。",
       "degreeTitle": "学位课程",
@@ -168,7 +168,7 @@
       "learnMore": "了解更多",
       "products": {
         "aurora": {
-          "name": "Aurora (极光)",
+          "name": "Aurora",
           "desc": "一款可从源头阻断黑色素的皮肤美白产品。"
         },
         "akg": {
@@ -176,22 +176,22 @@
           "desc": "AKG Evolution 膳食胶囊促进细胞能量和长寿。"
         },
         "super": {
-          "name": "Super Antioxidant (超强抗氧化剂)",
+          "name": "Super Antioxidant",
           "desc": "提供强效的细胞抗氧化支持。"
         }
       }
     },
     "fule": {
       "title": "<grey>赋能</grey> <br></br> 女性健康",
-      "desc1": "拥有超过 34 年的辉煌历史，来自中国陕西的三八妇乐集团是女性健康领域合法授权且备受尊敬的先驱。",
+      "desc1": "拥有超过 34 年的辉煌历史，来自中国陕西的 38Fule Group 是女性健康领域合法授权且备受尊敬的先驱。",
       "desc2": "我们为您带来深受信赖的优质医疗保健解决方案，专为在人生的每个阶段呵护和保护女性的福祉而设计。",
       "learnMore": "了解更多"
     },
     "stem": {
       "title": "<grey>精英</grey>干细胞医疗<grey>旅游在</grey>海南",
-      "desc": "为健康而旅行，为生命而旅行。通过我们与中海英联（一家科学家主导的世界级再生医学企业）的合作伙伴关系，我们在中国海南博鳌乐城先行区提供独一无二的医疗旅游体验。体验旨在焕发您生命力的最先进的免疫和干细胞疗法。",
+      "desc": "为健康而旅行，为生命而旅行。通过我们与 Zhonghai Yinglian（一家科学家主导的世界级再生医学企业）的合作伙伴关系，我们在中国海南的 Boao Lecheng International Medical Tourism Pilot Zone 提供独一无二的医疗旅游体验。体验旨在焕发您生命力的最先进的免疫和干细胞疗法。",
       "learnMore": "了解更多",
-      "privilege": "*专属特权：每个套餐都免费赠送价值 100 美元的 Masterpay 卡。",
+      "privilege": "*专属特权：每个套餐都免费赠送价值 100 美元的 Masterpay Card。",
       "options": {
         "firstTime": "首次到访者",
         "firstTimeDesc": "包括为商业会员提供的 5500 CV",

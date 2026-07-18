@@ -41,7 +41,7 @@ export async function generateMetadata({
     },
     openGraph: {
       type: "website",
-      locale: locale === 'zh' ? 'zh_CN' : 'en_US',
+      locale: locale === 'zh' ? 'zh_CN' : locale === 'th' ? 'th_TH' : 'en_US',
       url: `https://pnl-intl.com/${locale}`,
       siteName: "P&L International",
       title: t('ogTitle'),
@@ -66,6 +66,7 @@ export async function generateMetadata({
       languages: {
         en: 'https://pnl-intl.com/en',
         zh: 'https://pnl-intl.com/zh',
+        th: 'https://pnl-intl.com/th',
       },
     },
     robots: {
