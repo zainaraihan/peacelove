@@ -47,18 +47,23 @@ export default function Footer() {
                             <p className="text-brand-white text-h3 md:text-h1 w-[42.71] leading-[24.48px] self-center md:text-[70px] md:leading-[102%]">{t('bloom')}</p>
                             <img src="/peacelove_mainlogo_gold.svg?v=2" alt="Footer-Logo" />
                         </div>
-
-                        <div className="flex flex-col gap-[18px] md:flex-row">
-                            <div className="w-[244px] md:w-[30vw] text-brand-white flex flex-col gap-[18px] md:gap-[64px]">
-                                <div className="flex flex-col gap-[10px]">
-                                    <h4 className="text-small font-semibold text-brand-white">{t('adminOffice')}</h4>
-                                    <p className="text-small text-brand-white md:w-[25vw]">{t('adminAddress')}</p>
-                                </div>
+                        <div>
+                            <div className="mb-2 w-[200px] lg:w-full">
+                                <h4 className="text-small font-semibold text-brand-white">{t('sdn')}</h4>
                             </div>
-                            <div className="w-[244px] md:w-[30vw] text-brand-white flex flex-col gap-[18px] md:gap-[64px]">
-                                <div className="flex flex-col gap-[10px]">
-                                    <h4 className="text-small font-semibold text-brand-white">{t('marketingOffice')}</h4>
-                                    <p className="text-small text-brand-white md:w-[22vw]">{t('marketingAddress')}</p>
+
+                            <div className="flex flex-col gap-[18px] md:flex-row">
+                                <div className="w-[244px] md:w-[30vw] text-brand-white flex flex-col gap-[18px] md:gap-[64px]">
+                                    <div className="flex flex-col gap-[10px]">
+                                        <h4 className="text-small font-semibold text-brand-white">{t('adminOffice')}</h4>
+                                        <p className="text-small text-brand-white md:w-[25vw]">{t('adminAddress')}</p>
+                                    </div>
+                                </div>
+                                <div className="w-[244px] md:w-[30vw] text-brand-white flex flex-col gap-[18px] md:gap-[64px]">
+                                    <div className="flex flex-col gap-[10px]">
+                                        <h4 className="text-small font-semibold text-brand-white">{t('marketingOffice')}</h4>
+                                        <p className="text-small text-brand-white md:w-[22vw]">{t('marketingAddress')}</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
