@@ -38,7 +38,7 @@ export default function Navbar() {
                     ))}
                 </div>
                 <div className='hidden md:flex items-center gap-10'>
-                    <a className='text-small text-brand-primary hover:text-brand-secondary/30 font-medium transition-colors' href="https://twmember.bouleglobal.com/PnL/PnLMarketplace">
+                    <a className='text-small text-brand-primary hover:text-brand-secondary/30 font-medium transition-colors' href="https://peaceandlove-intl.com.my/">
                         {t('mall')}
                     </a>
                     <Button className='flex flex-col w-full items-center'>
