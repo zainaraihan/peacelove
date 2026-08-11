@@ -66,7 +66,7 @@ export default function Navbar() {
                         </button>
                     </div>
                     <div className="flex flex-col items-center justify-center flex-grow gap-8">
-                        <a className='text-h3 font-semibold text-brand-primary hover:text-brand-secondary/60 transition-colors' href="https://twmember.bouleglobal.com/PnL/PnLMarketplace">
+                        <a className='text-h3 font-semibold text-brand-primary hover:text-brand-secondary/60 transition-colors' href="https://peaceandlove-intl.com.my/">
                             {t('mall')}
                         </a>
                         {menuItems.map((item, index) => (
