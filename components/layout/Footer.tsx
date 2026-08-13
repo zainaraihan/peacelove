@@ -37,7 +37,7 @@ export default function Footer() {
                         </div>
                         <div>
                             <a href="https://peaceandlove-intl.com.my/" className="text-h1 md:text-[42px] font-medium text-brand-primary hover:text-brand-primary/60 transition-colors">
-                                {t('38Mall')}
+                                {t('mall')}
                             </a>
                         </div>
                     </div>

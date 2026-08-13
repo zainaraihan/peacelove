@@ -39,7 +39,7 @@ export default function Navbar() {
                 </div>
                 <div className='hidden md:flex items-center gap-10'>
                     <a className='text-small text-brand-primary hover:text-brand-secondary/30 font-medium transition-colors' href="https://peaceandlove-intl.com.my/">
-                        {t('38Mall')}
+                        {t('mall')}
                     </a>
                     <Button className='flex flex-col w-full items-center'>
                         <a className='px-2' href="https://login.pnl-intl.com/Login_m.aspx">{t('login')}</a>
@@ -67,7 +67,7 @@ export default function Navbar() {
                     </div>
                     <div className="flex flex-col items-center justify-center flex-grow gap-8">
                         <a className='text-h3 font-semibold text-brand-primary hover:text-brand-secondary/60 transition-colors' href="https://peaceandlove-intl.com.my/">
-                            {t('38Mall')}
+                            {t('mall')}
                         </a>
                         {menuItems.map((item, index) => (
                             <Link
