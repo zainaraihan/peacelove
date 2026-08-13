@@ -36,8 +36,8 @@ export default function Footer() {
                             </a>
                         </div>
                         <div>
-                            <a href="https://twmember.bouleglobal.com/PnL/PnLMarketplace" className="text-h1 md:text-[42px] font-medium text-brand-primary hover:text-brand-primary/60 transition-colors">
-                                {t('mall')}
+                            <a href="https://peaceandlove-intl.com.my/" className="text-h1 md:text-[42px] font-medium text-brand-primary hover:text-brand-primary/60 transition-colors">
+                                {t('38Mall')}
                             </a>
                         </div>
                     </div>
