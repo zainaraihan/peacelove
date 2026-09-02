@@ -116,7 +116,7 @@ export default function Services() {
                                 </button>
                             </div>
                             <Button>
-                                <a href="https://www.bpmlife.com/">{t('bpm.learnMore')}</a>
+                                <a href="https://peaceandlove-intl.com.my/">{t('bpm.learnMore')}</a>
                             </Button>
                         </div>
                     </div>
