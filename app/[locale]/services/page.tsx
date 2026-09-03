@@ -207,7 +207,7 @@ export default function Services() {
                 <div className="flex flex-col relative top-6 backdrop-blur-sm py-10 bg-[linear-gradient(180deg,rgba(153,153,153,0)-10.12%,#FFF_62.95%)] md:w-full md:py-20">
                     <div className="flex flex-col md:px-[3vw] items-center gap-10">
                         <h1 className="text-h1 text-center lg:w-[80vw]">{t('cta.title')}</h1>
-                        <p className="text-p text-center w-90 md:w-200">{t('cta.desc')}</p>
+                        {/* <p className="text-p text-center w-90 md:w-200">{t('cta.desc')}</p> */}
                         <div className="flex gap-4">
                             <Button className="text-p">
                                 <a href="https://login.pnl-intl.com/Login_m.aspx">{t('cta.buttonJoin')}</a>
