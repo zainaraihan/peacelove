@@ -195,7 +195,7 @@
       "privilege": "*专属特权：每个套餐都免费赠送价值 100 美元的 Masterpay Card。",
       "options": {
         "firstTime": "首次到访者",
-        "firstTimeDesc": "包括为商业会员提供的 5500 CV",
+        "firstTimeDesc": "包括为商业会员提供的 4500 CV",
         "returnVisitor": "第二次及以上到访者",
         "returnVisitorDesc": "包括为商业会员提供的 3500 CV"
       }

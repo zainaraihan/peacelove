@@ -186,7 +186,6 @@ export default function Services() {
                             ))}
                         </div>
                         <div className="flex flex-col gap-8 md:flex-row-reverse md:justify-between md:items-center md:py-10">
-                            <p className="text-p text-brand-grey-dark font-medium md:w-[50vw]">{t('stem.privilege')}</p>
                             <div className="flex justify-between">
                                 <div className="flex gap-4 md:hidden">
                                     <button onClick={prevStem} aria-label="Previous">
@@ -208,13 +207,13 @@ export default function Services() {
                 <div className="flex flex-col relative top-6 backdrop-blur-sm py-10 bg-[linear-gradient(180deg,rgba(153,153,153,0)-10.12%,#FFF_62.95%)] md:w-full md:py-20">
                     <div className="flex flex-col md:px-[3vw] items-center gap-10">
                         <h1 className="text-h1 text-center lg:w-[80vw]">{t('cta.title')}</h1>
-                        <p className="text-p text-center w-90 md:w-200">{t('cta.desc')}</p>
+                        {/* <p className="text-p text-center w-90 md:w-200">{t('cta.desc')}</p> */}
                         <div className="flex gap-4">
                             <Button className="text-p">
                                 <a href="https://login.pnl-intl.com/Login_m.aspx">{t('cta.buttonJoin')}</a>
                             </Button>
                             <Button className="text-p">
-                                <Link href="/contact">{t('cta.buttonPurchase')}</Link>
+                                <Link href="https://peaceandlove-intl.com.my/">{t('cta.buttonPurchase')}</Link>
                             </Button>
                         </div>
                     </div>

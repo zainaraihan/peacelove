@@ -195,10 +195,16 @@
       "privilege": "*Special Privilege : Every package comes with a Free Masterpay Card worth US$100.",
       "options": {
         "firstTime": "1st Time Visitor",
-        "firstTimeDesc": "Includes 5500 CV for Business Members",
+        "firstTimeDesc": "Includes 4500 CV for Business Members",
         "returnVisitor": "2nd Time & Above",
         "returnVisitorDesc": "Includes 3500 CV for Business Members"
       }
+    },
+    "cta": {
+      "title": "Experience the Ultimate Health & Wealth",
+      "desc": "Unlock world-class health and join P&L's 100-Billion Global Business Platform with our premium packages. Start building your lifelong career today.",
+      "buttonJoin": "Join Member",
+      "buttonPurchase": "Contact to Purchase"
     }
   }
 }
